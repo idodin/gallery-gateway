@@ -9,6 +9,7 @@ on:
 env:
   GITHUB_SHA: ${{ github.sha }}
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+  IMAGE: shopify-interview-gateway
 
 jobs:
   setup-build-tag-publish-deploy:
